@@ -20,7 +20,7 @@ int main()
 	cout << "Nomor Mahasiswa : ";
 	getline (cin,mhs.nim);
 	cout << "Nama Mahasiswa : ";
-	cin >> mhs.nama;
+	getline(cin, mhs.nama);
 
 	cout << "Alamat Mahasiswa : " << endl; 
 	cout << "\t Nama Desa : ";
