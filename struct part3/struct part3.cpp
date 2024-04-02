@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 struct DetailAlamat
@@ -11,7 +12,7 @@ struct Mahasiswa
 	string nim;
 	string nama;
 	DetailAlamat alamat;
-	string umur;
+	int umur;
 };
 
 int main()
